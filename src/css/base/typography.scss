@@ -1,0 +1,25 @@
+@import '../utils/mixins.scss';
+@import '../utils/variables.scss';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-nav li {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    font-weight: 700;
+}
+
+.landing-copy {
+    p {
+        @include fontLineSize(1.3em, 1.4em);
+    }
+
+    h1 {
+        @include fontLineSize(3em, 1.2em);
+    }
+}

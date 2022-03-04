@@ -1,0 +1,26 @@
+@mixin fontLineSize ($font_size, $line_height)
+{
+    font-size: $font_size;
+    line-height: $line_height;
+}
+
+@mixin textDecor ($decoration) {
+    text-decoration: $decoration;
+}
+
+@mixin bkgColor ($color) {
+    background-color: $color;
+}
+
+@mixin displayInline {
+    display: inline-block;
+}
+
+@mixin roundBorder {
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+@mixin paddings ($p1, $p2, $p3, $p4) {
+    padding: $p1 $p2 $p3 $p4;
+}
